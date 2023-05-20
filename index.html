@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'/>
+    <script src='script.js' defer></script>
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="cabecalho">
+                <h1>Home</h1>
+            </div>
+            <nav>
+                <ul>
+                    <a href=""><li id="nav_selected">Home</li></a>
+                    <a href="vantagens.html"><li>Vantagens</li></a>
+                    <a href="desvantagens.html"><li>Desvantagens</li></a>
+                    <a href="impactos.html"><li>Impactos</li></a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="home">
+        <section>
+            <table border="1" class="table-home">
+                <thead>
+                    <tr>
+                        <th>Matéria</th>
+                        <th>Professor</th>
+                        <th>Integrante(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="7">Introdução às Tecnologias WEB</td>
+                        <td rowspan="7">Eduardo Cardoso Moraes</td>
+                        <td>Wesley Thyago Da Silva Santos</td>
+                    </tr>
+                    <tr>
+                        <td>Willyan Viana</td>
+                    </tr>
+                    <tr>
+                        <td>Nichael Silva Correia Filho</td>
+                    </tr>
+                </tbody>
+            </table><br/><br/>
+            <details>
+                <summary>Formulário de contato:</summary>
+                <form>
+                    <input type="email" name="email" placeholder="Digite o seu email de contato" />
+                    <input type="text" name="assunto" placeholder="Digite o assunto" /><br/>
+                    <textarea name="body" placeholder="Digite o texto aqui..."></textarea><br/>
+                    <input type="submit" name="enviar" value="Enviar" />
+                    <input type="reset" name="reset" value="Limpar Dados" /><br/>
+                </form>
+            </details>
+        </section>
+    </main>
+</body>
+</html>
